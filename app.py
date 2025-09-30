@@ -58,7 +58,7 @@ if "messages" not in st.session_state:
 if "html_code" not in st.session_state:
     st.session_state.html_code = None
 
-st.title("📢 Marketing Content Generator")
+st.title("📢 Marketing Webpage Generator")
 st.markdown('This streamlit app is made using [Baseten](https://www.baseten.co/) which provides secure, scalable, fast LLM inferencing, Try for free [here](https://app.baseten.co/overview):')
 
 # Display chat history
